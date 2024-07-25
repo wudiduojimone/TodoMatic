@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.1.1",
     "nanoid": "^5.0.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -17,6 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -39,7 +41,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wudiduojimone/TodoMatic.git"
@@ -49,6 +50,6 @@
   "bugs": {
     "url": "https://github.com/wudiduojimone/TodoMatic/issues"
   },
-  "homepage": "https://github.com/wudiduojimone/TodoMatic#readme",
+  "homepage": "https://wudiduojimone.github.io/TodoMatic",
   "keywords": []
 }
